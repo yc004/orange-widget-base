@@ -1,0 +1,1678 @@
+gui.py:
+    (^|[^%])%\((?P<value>[a-zA-Z]\w*)\): null
+    _lambda_{i}: null
+    def `is_macstyle`:
+        QMacStyle: null
+    def `resource_filename`:
+        "'resource_filename' is deprecated.": null
+    class `OWComponent`:
+        def `connect_control`:
+            .: null
+        def `__setattr__`:
+            .: null
+            controlled_attributes: null
+    def `miscellanea`:
+        addSpace: null
+        "'addSpace' has been deprecated. Use gui.separator instead.": "'addSpace' 已经过时，请使用 gui.separator 代替。"
+        set: null
+        box: null
+    def `_is_horizontal`:
+        string literals for orientation are deprecated: null
+        boolean values for orientation are deprecated: null
+        horizontal: null
+    def `widgetBox`:
+        ' ': null
+        addSpaceBefore: null
+    def `label`:
+        value: null
+    class `SpinBoxMixin`:
+        def `onEnter`:
+            "Testing by calling a spinbox's 'onEnter' method is deprecated, ": null
+            a call to 'setValue' should be sufficient.: null
+    def `spin`:
+        "'callbackOnReturn' is deprecated, all spinboxes callback ": null
+        only when the user is finished editing the value.: null
+        upButton: null
+    class `LineEditWFocusOut`:
+        def `__callback_if_changed`:
+            cback: null
+    def `lineEdit`:
+        baseClass: null
+    def `radioButtons`:
+        addToLayout: null
+    def `appendRadioButton`:
+        "'addSpace' has been deprecated. Use gui.separator instead.": "'addSpace' 已经过时，请使用 gui.separator 代替。"
+        buttons: null
+    def `hSlider`:
+        ' %d': null
+        addToLayout: null
+    def `labeledSlider`:
+        ' %d': null
+    def `valueSlider`:
+        ' %d': null
+    def `comboBox`:
+        addToLayout: null
+        "'editable' is ignored for searchable combo box.": null
+        valueType: null
+        comboBox no longer accepts argument 'valueType': null
+    def `deferred`:
+        class `DeferrerProperty`:
+            def `__get__`:
+                __{name}_data: null
+                class `Deferred`:
+                    def `__call__`:
+                        'This function is deferred; explicitly call ': null
+                        {name}.deferred or {name}.now: null
+                    def `__setattr__`:
+                        now: null
+                        deferred: null
+                    def `__getattribute__`:
+                        now: null
+                        deferred: null
+                    def `__delattr__`:
+                        now: null
+                        deferred: null
+            def `__set__`:
+                "decorated {name} can't be mocked; ": null
+                mock '{name}.now' and/or '{name}.deferred'.: null
+    def `auto_commit`:
+        commit: commit
+        deferred: null
+        {label.title()} Automatically: null
+        addToLayout: addToLayout
+        decorated: null
+        {type(master).__name__}.{commit_name} must be: null
+        decorated with gui.deferred because it overrides: null
+        a decorated {supertype.__name__}.: null
+        'decorate {type(master).__name__}.{commit_name} ': null
+        'with @gui.deferred and then explicitly call ': null
+        {commit_name}.now or {commit_name}.deferred.: null
+        unconditional_: null
+    def `auto_send`:
+        auto_send: null
+        Send Selection: null
+        Send Automatically: null
+    def `auto_apply`:
+        auto_apply: null
+        Apply: 应用
+        Apply Automatically: 自动应用
+    def `disable_opposite`:
+        opposite: null
+    class `ControlledCallback`:
+        def `__init__`:
+            callbackDeposit: null
+        def `acyclic_setattr`:
+            +-: null
+    class `SetLabelCallback`:
+        def `__init__`:
+            %5.2f: null
+            callbackDeposit: null
+    class `FunctionCallback`:
+        def `__init__`:
+            callbackDeposit: null
+        def `__call__`:
+            id: null
+            widget: null
+    class `ControlledCallFront`:
+        def `__call__`:
+            opposite: null
+    class `CallFrontComboBox`:
+        def `action`:
+            def `action_str`:
+                "Combo '{combo.objectName()}' has no item '{value}'; ": null
+                current items are {', '.join(map(repr, items))}.: null
+                combo '{combo.objectName()}' is empty.: null
+            def `action_int`:
+                'index {value} is out of range ': null
+                "for combo box '{combo.objectName()}' ": null
+                with {combo.count()} item(s).: null
+                combo box '{combo.objectName()}' is empty.: null
+    class `CallFrontComboBoxModel`:
+        def `action`:
+            'Combo box does not contain item ': null
+    class `CallFrontLogSlider`:
+        def `action`:
+            unable to set %s to %s (value too small): null
+    class `Disabler`:
+        def `__call__`:
+            makeConsistent: null
+    class `ColoredBarItemDelegate`:
+        def `__init__`:
+            %%.%if: null
+        def `displayText`:
+            NA: null
+    class `VisibleHeaderSectionContextEventFilter`:
+        def `eventFilter`:
+            Visible headers: null
+    def `checkButtonOffsetHint`:
+        macintosh (aqua): null
+        macintosh(aqua): null
+        plastique: null
+        cde: null
+        motif: null
+    class `ControlGetter`:
+        def `__getattr__`:
+            "'{}' is not an attribute related to a gui element or ": null
+            component: null
+    class `CalendarWidgetWithTime`:
+        def `__init__`:
+            hh:mm:ss: null
+            'Time: ': null
+    class `DateTimeEditWCalendarTime`:
+        def `__init__`:
+            yyyy-MM-dd hh:mm:ss: null
+io.py:
+    ImgFormat: null
+    Compression: null
+    PngFormat: null
+    ClipboardFormat: null
+    SvgFormat: null
+    MatplotlibPDFFormat: null
+    MatplotlibFormat: null
+    PdfFormat: null
+    class `Compression`:
+        .gz: null
+        .bz2: null
+        .xz: null
+    class `_Registry`:
+        def `__new__`:
+            registry: null
+        def `__str__`:
+            {}({{{}}}): null
+            ', ': null
+    class `ImgFormat`:
+        def `_meta_data`:
+            width: null
+            height: null
+            pixel_ratio: null
+        def `write_image`:
+            '{cls.__name__} ': null
+            cannot imagine {type(object).__name__}: null
+        def `write`:
+            scene: null
+        def `img_writers`:
+            EXTENSIONS: null
+    class `PngFormat`:
+        .png: null
+        Portable Network Graphics: null
+        def `_save_buffer`:
+            png: null
+        def `_get_exporter`:
+            class `PngExporter`:
+                def `export`:
+                    width: null
+                    height: null
+                    'Cannot export image with size=0 (requested ': null
+                    export size is %dx%d): null
+                    background: null
+                    antialias: null
+                    painter: null
+                    resolutionScale: null
+                    invertValue: null
+                    little: null
+        def `_export`:
+            png: null
+    class `ClipboardFormat`:
+        System Clipboard: null
+        def `_save_buffer`:
+            pixel_ratio: null
+    class `SvgFormat`:
+        .svg: null
+        Scalable Vector Graphics: null
+        def `_export`:
+            background: null
+        def `write_image`:
+            '<svg ': null
+            '<svg style="image-rendering:optimizeSpeed;image-rendering:pixelated" ': null
+            w: null
+    class `MatplotlibFormat`:
+        .py: null
+        Python Code (with Matplotlib): null
+        def `write_image`:
+            \n\nplt.show(): null
+            wt: null
+        def `write`:
+            scene: null
+    class `MatplotlibPDFFormat`:
+        .pdf: null
+        Portable Document Format (from Matplotlib): null
+        def `write_image`:
+            backend: null
+            pdf: null
+            \n\nplt.savefig({}): null
+    class `PdfFormat`:
+        .pdf: null
+        Portable Document Format: null
+        def `write_image`:
+            .svg: null
+            rb: null
+settings.py:
+    Setting: null
+    SettingsHandler: null
+    SettingProvider: null
+    ContextSetting: null
+    Context: null
+    ContextHandler: null
+    IncompatibleContext: null
+    SettingsPrinter: null
+    rename_setting: null
+    widget_settings_dir: null
+    __version__: null
+    def `widget_settings_dir`:
+        widgets: null
+    class `Setting`:
+        def `__str__`:
+            {0} "{1}": null
+    def `_apply_setting`:
+        clear: null
+        update: null
+    class `SettingProvider`:
+        def `_default_packer`:
+            '{0} is declared as setting on {1} ': null
+            but not present on instance.: null
+    class `SettingsHandler`:
+        def `analyze_settings`:
+            {0}{1}.: null
+        def `read_defaults`:
+            rb: null
+            Could not read defaults for widget {0}\n: null
+            The following error occurred:\n\n{1}: null
+        def `write_defaults`:
+            wb: null
+            Could not write default settings for %s (%s).: null
+        def `_get_settings_filename`:
+            {0.__module__}.{0.__qualname__}.pickle: null
+        def `_select_provider`:
+            '{0} has not been declared as setting provider in {1}. ': null
+            Settings will not be saved/loaded properly. Defaults will be used instead.: null
+    class `ContextHandler`:
+        def `initialize`:
+            context_settings: null
+        def `pack_data`:
+            context_settings: null
+        def `update_packed_data`:
+            .: null
+    class `SettingsPrinter`:
+        def `_format`:
+            Context(: null
+            values: null
+            =: null
+            ,\n: null
+            ' ': null
+            values=: null
+            ): null
+version.py:
+    4.28.0: null
+    4.28.0.dev0+78bc424: null
+    78bc4246d3af88e355b8a3fc05f6cab444e19bb2: null
+    .dev: null
+widget.py:
+    OWBaseWidget: null
+    Input: null
+    Output: null
+    MultiInput: null
+    Message: null
+    Msg: null
+    StateInfo: null
+    def `_load_styled_icon`:
+        icons/: null
+    class `WidgetMetaClass`:
+        def `__new__`:
+            ,: null
+        def `__prepare__`:
+            _final_class: null
+    class `OWBaseWidget`:
+        icons/Unknown.png: null
+        write_image: null
+        EXTENSIONS: null
+        def `__new__`:
+            left_side_scrolling: null
+            "'OWBaseWidget.left_side_scrolling' is deprecated.": null
+            stored_settings: null
+            signal_manager: null
+            env: null
+            Help: 帮助
+            action-help: null
+            Show help: 显示帮助
+            Report: 报告
+            action-report: null
+            Create and display a report: 创建并显示报告
+            alt+r: null
+            send_report: null
+            Save Image: 保存图像
+            action-save-image: null
+            Save image: 保存图像
+            alt+s: null
+            Reset: 重置
+            action-reset-settings: null
+            Reset settings to default state: 将设置重置为默认状态
+            reset_settings: null
+            Show View Options: 显示视图选项
+            action-visual-settings: null
+            set_visual_settings: null
+            Copy to Clipboard: 复制到剪贴板
+            action-copy-to-clipboard: null
+            Copy Image to Clipboard: 复制图像到剪贴板
+            Minimize: null
+            ctrl+m: null
+            Close: 关闭
+            action-close-window: null
+            ctrl+w: null
+            /menubar: null
+            use-native: null
+            visible: null
+            Show Menu Bar: 显示菜单栏
+            action-show-menu-bar: null
+            ctrl+shift+m: null
+            menu-bar-visible-timer: null
+            alt-key-timeout: null
+            &File: 文件(&F)
+            menu-file: null
+            &Edit: 编辑(&E)
+            menu-edit: null
+            darwin: null
+            Cut: null
+            Copy: 复制
+            Paste: 粘贴
+            Select All: 全选
+            &View: 视图(&V)
+            menu-view: null
+            &Window: 窗口(&W)
+            menu-window: null
+            &Help: 帮助(&H)
+            help-menu: null
+            Quick Help Tip: 快速帮助提示
+            action-quick-help-tip: null
+            shift+f1: null
+            Show Control Area: 显示控制区
+            action-show-control-area: null
+            Ctrl+Shift+D: null
+        def `__menuBarVisibleTimeout`:
+            __visible_from_alt_key_press: null
+        def `__setMenuBarVisible`:
+            __visible_from_alt_key_press: null
+            /menubar: null
+            visible: null
+        def `__init_subclass__`:
+            _final_class: null
+            'subclassing of widget classes is deprecated and will be ': null
+            disabled in the future.\n: null
+            'Extract code from {base.__name__} or explicitly open it ': null
+            by adding `openclass=True` to class definition.: null
+        def `get_widget_description`:
+            name: null
+            icon: null
+            description: null
+            priority: null
+            keywords: null
+            replaces: null
+            short_name: null
+            category: null
+            id: null
+            inputs: null
+            outputs: null
+            qualified_name: null
+            {cls.__module__}.{cls.__name__}: null
+        class `_Splitter`:
+            def `sizeHint`:
+                sizeHint: null
+            def `minimumSizeHint`:
+                minimumSizeHint: null
+        def `_create_default_buttons`:
+            &Save Image: 保存图像(&S)
+            send_report: null
+            &Report: 报告(&R)
+        def `statusBar`:
+            owwidget-status-bar: null
+            Show Status Bar: 显示状态栏
+            action-show-status-bar: null
+            Show status bar: 显示状态栏
+            Shift+Ctrl+\\: null
+            'div.field-text { white-space: pre; }\n': null
+            div.field-detailed-text {\n: null
+            '    margin-top: 0.5em; margin-bottom: 0.5em; \n': null
+            '    margin-left: 1em; margin-right: 1em;\n': null
+            }: null
+            buttons: null
+            hamburger.svg: null
+            Menu: 菜单
+            status-bar-menu-button: null
+            help.svg: null
+            chart.svg: null
+            report.svg: null
+            reset.svg: null
+            visual-settings.svg: null
+            in-out-msg: null
+            menu-view: null
+        def `__info`:
+            '
+            /* vertical row header cell */
+            tr > th.field-name {
+                text-align: right;
+                padding-right: 0.2em;
+                font-weight: bold;
+            }
+            dt {
+                font-weight: bold;
+            }
+            ': null
+            in-out-msg: null
+            input-summary: null
+            output-summary: null
+            buttons: null
+        def `info`:
+            "'OWBaseWidget.info' is a property since 3.19 and will be made read ": null
+            only in v4.0.: null
+            info: null
+        def `__setControlAreaVisible`:
+            action-show-control-area: null
+        def `__showStatusBarMenu`:
+            status-bar-menu-button: null
+            up: null
+        def `keyReleaseEvent`:
+            __visible_from_alt_key_press: null
+        def `__showMessage`:
+            Ok, got it: null
+            '
+            MessageOverlayWidget {
+                background: qlineargradient(
+                    x1: 0, y1: 0, x2: 0, y2: 1,
+                    stop:0 #666, stop:0.3 #6D6D6D, stop:1 #666)
+            }
+            MessageOverlayWidget QLabel#text-label {
+                color: white;
+            }': null
+            Learn more\N{HORIZONTAL ELLIPSIS}: null
+        def `__quicktipOnce`:
+            user-session-state.ini: null
+            user-message-history/{0.__module__}.{0.__qualname__}: null
+            def `_ispending`:
+                {}/confirmed: null
+            def `_userconfirmed`:
+                {}/confirmed: null
+        def `actionEvent`:
+            action-canvas-: null
+            menu-window: null
+    k: null
+    M: null
+    G: null
+    T: null
+    P: null
+    class `StateInfo`:
+        class `Summary`:
+            def `default_icon`:
+                {role}.svg: null
+        class `Empty`:
+            def `default_icon`:
+                {role}-empty.svg: null
+        class `Partial`:
+            def `default_icon`:
+                {role}-partial.svg: null
+        def `set_input_summary`:
+            def `assert_single_arg`:
+                'No extra arguments expected when `summary` ': null
+                is `None` or `Message`: null
+            No data on input: null
+            -: null
+            input: null
+            "'None', 'str' or 'Message' instance expected, ": null
+            got '{}': null
+        def `set_output_summary`:
+            def `assert_single_arg`:
+                'No extra arguments expected when `summary` ': null
+                is `None` or `Message`: null
+            No data on output: null
+            -: null
+            output: null
+            "'None', 'str' or 'Message' instance expected, ": null
+            got '{}': null
+        def `format_number`:
+            {n:.3g}{metric_suffix[mag]}: null
+report/owreport.py:
+    class `ReportItemModel`:
+        def `add_item`:
+            Remove: null
+            Open Scheme: 打开工作流
+    class `ReportTable`:
+        def `__init__`:
+            icons/delete.svg: null
+            icons/scheme.svg: null
+    class `OWReport`:
+        Report: null
+        def `__init__`:
+            index.html: null
+            utf-8: null
+        def `_setup_ui_`:
+            Back to Last Scheme: null
+            Save: 保存
+            Print: null
+        def `_add_item`:
+            {} - {}: null
+        def `_build_html`:
+            (function (id) {{: null
+            '     setSelectedId(id); scrollToId(id); ': null
+            }}: null
+            (\"{selected_id}\"));: null
+            '': null
+            <body onload='{onload}'>: null
+            <body>: null
+            "<div id='{}' class='normal' ": null
+            "onClick='pybridge._select_item(this.id)'>{}<div ": null
+            "class='textwrapper'><textarea ": null
+            placeholder='Write a comment...': null
+            onInput='this.innerHTML = this.value;: null
+            pybridge._add_comment(this.parentNode.parentNode.id, this.value);': null
+            >{}</textarea></div>: null
+            </div>: null
+            </body></html>: null
+        def `_scroll_to_item`:
+            scrollToId('{item.id}'): null
+            scrollToId returned %s: null
+        def `_change_selected_item`:
+            setSelectedId('{item.id}');: null
+            setSelectedId returned %s: null
+        def `_get_scheme_str`:
+            utf-8: null
+        def `save_report`:
+            HTML (*.html): null
+            .html: null
+            PDF (*.pdf): null
+            .pdf: null
+            Report (*.report): null
+            .report: null
+            Save Report: 保存报告
+            ;;: null
+            def `save_html`:
+                w: null
+                utf-8: null
+        def `_print_report`:
+            Print report: null
+        def `save`:
+            last_scheme: null
+            open_dir: null
+            wb: null
+        def `load`:
+            rb: null
+            attributes: null
+            items: null
+        def `permission_error`:
+            PermissionError when trying to write report.: null
+            Error: null
+            Permission error when trying to write report.: null
+            'Permission error occurred ': null
+            while saving '{}'.: null
+        def `set_instance`:
+            OWReport.set_instance is deprecated: null
+        def `get_instance`:
+            OWReport.get_instance is deprecated: null
+            _report_window: null
+report/report.py:
+    Report: null
+    bool_str: null
+    colored_square: null
+    plural: null
+    plural_w: null
+    clip_string: null
+    clipped_list: null
+    get_html_img: null
+    get_html_section: null
+    get_html_subsection: null
+    list_legend: null
+    render_items: null
+    render_items_vert: null
+    class `Report`:
+        def `show_report`:
+            Missing Component: null
+            'Orange can not display reports, because your installation ': null
+            contains neither WebEngine nor WebKit.\n\n: null
+            'If you installed Orange with conda or pip, try using another ': null
+            'PyQt distribution. ': null
+            'If you installed Orange with a standard installer, please ': null
+            report this bug.: null
+        def `create_report_html`:
+            <section class="section">: null
+            <div class="content">\n: null
+            </div></section>\n\n: null
+        def `report_table`:
+            def `report_abstract_model`:
+                def `item_html`:
+                    def `data`:
+                        ' ': null
+                    displayText: null
+                    black: null
+                    '#ffffff': null
+                    transparent: null
+                    'font-weight: bold; ': null
+                    left: null
+                    right: null
+                    center: null
+                    top: null
+                    bottom: null
+                    middle: null
+                    style=": null
+                    color:{fgcolor}; background:{bgcolor}; {weight}: null
+                    text-align:{halign}; vertical-align:{valign};": null
+                    th: null
+                    td: null
+                    <{tag} {style}>{decoration}{value}</{tag}>\n: null
+                <tr>: null
+                <th></th>: null
+                </tr>: null
+            def `report_list`:
+                <td>{}</td>: null
+                <th>{}</th>: null
+                '  <tr>\n    {}</tr>\n': null
+            "<tr><th></th><td colspan='{}'><b>+ {} more</b></td></tr>
+            ": null
+            <table>\n: null
+            </table>: null
+        def `report_paragraph`:
+            <p>{}</p>: null
+        def `report_caption`:
+            <p class='caption'>{}</p>: null
+    def `plural`:
+        s: null
+        'Plural formed by this function is difficult to translate. ': null
+        Use orangecanvas.utils.localization.pl instead.: null
+    def `plural_w`:
+        s: null
+        zero: null
+        one: null
+        two: null
+        three: null
+        four: null
+        five: null
+        six: null
+        seven: null
+        nine: null
+        ten: null
+    def `bool_str`:
+        Yes: null
+        No: null
+    def `clip_string`:
+        ...: null
+    def `clipped_list`:
+        ', ': null
+        ' ': null
+    def `get_html_section`:
+        %a %b %d %y, %H:%M:%S: null
+        <h1>{} <span class='timestamp'>{}</h1>: null
+    def `get_html_subsection`:
+        <h2>{}</h2>: null
+    def `render_items`:
+        <ul>: null
+        <b>{}:</b> {}</br>: null
+        </ul>: null
+    def `render_items_vert`:
+        ', ': null
+        '<b>{}</b>: {}': null
+    def `get_html_img`:
+        utf-8: null
+        'max-height: {max_height}px': null
+        pixel_ratio: null
+        'zoom: {1 / ratio:.1f}': null
+        ' style="{"; ".join(style_opts)}"': null
+        <img{style} src="data:image/png;base64,{img_encoded}"/>: null
+    def `get_icon_html`:
+        PNG: null
+        ' width="{}" height="{}"': null
+        utf-8: null
+        '<img style="display: inline; vertical-align: middle" ': null
+        src="data:image/png;base64,{img_encoded}"{size_part}/>: null
+    def `colored_square`:
+        '<span class="legend-square" ': null
+        'style="background-color: rgb({}, {}, {})"></span>': null
+    def `list_legend`:
+        model: null
+        <span class="legend-item">{}</span>: null
+tests/base.py:
+    setdestroyonexit: null
+    T: null
+    def `named_file`:
+        wt: null
+    class `_FinishedMonitor`:
+        def `__init__`:
+            OWBaseWidget: null
+    class `DummySignalManager`:
+        def `get_output`:
+            Failed to get output in the specified timeout: null
+        def `wait_for_finished`:
+            OWBaseWidget: null
+    class `GuiTest`:
+        English: null
+        def `setUpClass`:
+            -: null
+            -widgetcount: null
+            darwin: null
+            pyqtgraph: null
+        def `tearDownClass`:
+            pyqtgraph: null
+            exitCleanup: null
+        def `skipNonEnglish`:
+            English: null
+        def `runOnLanguage`:
+            def `decorator`:
+                Test is valid only for {lang} release: null
+    class `WidgetTest`:
+        def `__init_subclass__`:
+            def `test_minimum_size`:
+                widget: null
+                minimum size not tested as .widget was not set: null
+            def `test_image_export`:
+                widget: null
+                image exporting not tested as .widget was not set: null
+            def `test_msg_base_class`:
+                widget: null
+                msg base class not tested as .widget was not set: null
+            test_minimum_size: null
+            test_msg_base_class: null
+            test_image_export: null
+        def `setUpClass`:
+            def `get_instance`:
+                TRAVIS: null
+                APPVEYOR: null
+            get_instance: null
+        def `_clear_widgets`:
+            _Cls__didCallOnDeleteWidget: null
+        def `reset_default_settings`:
+            settingsHandler: null
+        def `send_signals`:
+            widget: null
+            Signals are bound to different widgets: null
+        def `_send_signal`:
+            "'{}' is not an input name for widget {}": null
+            "'send_signal' called but the widget is not ": null
+            in ready state and does not accept inputs.: null
+            {} should be {}: null
+        def `wait_until_finished`:
+            Did not finish in the specified {timeout}ms timeout: null
+        def `commit_and_wait`:
+            now: null
+        def `get_output`:
+            widget: null
+            widget {} has no output {}: null
+        def `check_msg_base_class`:
+            Error: null
+            Warning: null
+            Information: null
+    class `TestWidgetTest`:
+        def `test_get_single_output`:
+            class `A`:
+                A: null
+                class `Inputs`:
+                    Question: null
+                class `Outputs`:
+                    Answer: null
+            6 * 7: null
+        def `test_compute_lazy_signals`:
+            class `A`:
+                A: null
+                class `Outputs`:
+                    Answer: null
+    class `BaseParameterMapping`:
+        def `__init__`:
+            both: null
+        def `__str__`:
+            both: null
+            %s (%s): null
+    class `ParameterMapping`:
+        def `_default_values`:
+            {} is not supported: null
+        def `_default_get_value`:
+            {} is not supported: null
+        def `_default_set_value`:
+            {} is not supported: null
+    def `open_widget_classes`:
+        __init_subclass__: null
+    def `override_default_settings`:
+        wb: null
+    __main__: null
+tests/utils.py:
+    def `excepthook_catch`:
+        'The sys.excepthook that was installed by ': null
+        "'excepthook_catch' context at enter is not ": null
+        the one present at exit.: null
+    class `simulate`:
+        def `combobox_activate_item`:
+            {!r} not in {}: null
+utils/PDFExporter.py:
+    class `PDFExporter`:
+        def `export`:
+            antialias: null
+            background: null
+            painter: null
+utils/__init__.py:
+    def `to_html`:
+        <=: null
+        &#8804;: null
+        >=: null
+        &#8805;: null
+        <: null
+        &#60;: null
+        >: null
+        &#62;: null
+        =\\=: null
+        &#8800;: null
+    def `dumpObjectTree`:
+        {indent}{type} "{name}": null
+        ' ': null
+    class `DeprecatedSignal`:
+        def `__init__`:
+            Deprecated: null
+    def `dropdown_popup_geometry`:
+        down: null
+        up: null
+        Invalid 'preferred_direction' ({preferred_direction}): null
+    def `graphemes`:
+        utf-16-le: null
+    def `grapheme_slice`:
+        negative start or end: null
+utils/cache.py:
+    class `LRUCache`:
+        __dict: null
+        __maxlen: null
+        __miss: null
+        __hit: null
+utils/combobox.py:
+    class `ComboBox`:
+        def `_get_size_hint`:
+            X: null
+    class `_ComboBoxListDelegate`:
+        def `paint`:
+            separator: null
+    class `ComboBoxSearch`:
+        def `_get_size_hint`:
+            X: null
+        def `showPopup`:
+            Filter...: 筛选...
+            darwin: null
+utils/concurrent.py:
+    class `FutureRunnable`:
+        def `run`:
+            Exception in worker thread.: null
+    class `FutureWatcher`:
+        def `setFuture`:
+            Future already set: null
+        def `isCancelled`:
+            isCancelled is deprecated: null
+        def `isDone`:
+            isDone is deprecated: null
+        def `result`:
+            Future is not yet done: null
+        def `exception`:
+            Future is not yet done: null
+    class `FutureSetWatcher`:
+        def `__init__`:
+            Future: null
+        def `setFutures`:
+            already set: null
+            __emitpending: null
+            doneAll: null
+        def `flush`:
+            `flush()` called from a wrong thread.: null
+        def `wait`:
+            Futures were not set.: null
+utils/filedialogs.py:
+    def `fix_extension`:
+        Mismatching extension: null
+        Extension '{ext}' does not match the chosen file format, {format}.: null
+        \n\nWould you like to fix this?: null
+        Change extension to {suggested_ext}: null
+        'Save as ': null
+        Back: null
+    def `format_filter`:
+        {} (*{}): null
+        ' *': null
+    def `open_filename_dialog_save`:
+        Save as...: 另存为...
+    def `open_filename_dialog`:
+        Open...: 打开...
+        *: null
+        All files (*.*): null
+        All readable files (*{}): null
+        ' *': null
+        ;;: null
+    class `RecentPath`:
+        def `__init__`:
+            nt: null
+            /: null
+        def `resolve`:
+            basedir: null
+        def `__repr__`:
+            '{0.__class__.__name__}(abspath={0.abspath!r}, ': null
+            'prefix={0.prefix!r}, relpath={0.relpath!r}, ': null
+            title={0.title!r}): null
+    def `_check_init`:
+        def `wrapper`:
+            {type(self).__name__}.__init__ was not called: null
+    class `_RecentPathsWidgetMixinBase`:
+        def `_search_paths`:
+            basedir: null
+    class `RecentPathsWidgetMixin`:
+        def `__init__`:
+            "RecentPathsWidgetMixin is deprecated because it exposes user's ": null
+            paths; use LocalRecentPathsWidgetMixin instead.: null
+    class `LocalRecentPathsWidgetMixin`:
+        def `__init__`:
+            active_path: null
+            'LocalRecentPathsWidgetMixin must be mixed into a widget that defines ': null
+            'active_path setting; use LocalRecentPathsWComboMixin if you want a ': null
+            combo box with active path handling: null
+        def `__setting_name`:
+            ^OW: null
+            [^A-Za-z_.]: null
+            ([a-z])([A-Z]): null
+            {m.group(1)}-{m.group(2)}: null
+            recent-paths/{name}: null
+        def `_ensure_recent_paths`:
+            recent_paths: null
+        def `store_recent_paths`:
+            recent_paths: null
+        def `_relocate_recent_files`:
+            recent_paths: null
+    class `_RecentPathsWComboMixinBase`:
+        def `_set_file_list`:
+            (none): null
+        def `update_file_list`:
+            basedir: null
+utils/itemdelegates.py:
+    A: null
+    class `ModelItemCache`:
+        __model: null
+        __cache_data: null
+        def `__init__`:
+            LRUCache[ModelItemCache.__KEY, Any]: null
+    class `CachedDataItemDelegate`:
+        roles: null
+        __cache: null
+    class `StyledItemDelegate`:
+        def `displayText`:
+            ' ': null
+    class `DataDelegate`:
+        __static_text_lru_cache: null
+        __pen_lru_cache: null
+        __style: null
+    class `BarItemDataDelegate`:
+        color: null
+        penWidth: null
+        barFillRatioRole: null
+        barColorRole: null
+        __line: null
+        __pen: null
+utils/itemmodels.py:
+    def `_as_contiguous_range`:
+        Non-contiguous range.: null
+    class `AbstractSortTableModel`:
+        def `_sortColumnData`:
+            Data should be 1- or 2-dimensional: null
+        def `_argsortData`:
+            mergesort: null
+    class `PyTableModel`:
+        def `data`:
+            {:.{}{}}: null
+            f: null
+            e: null
+        def `_check_sort_order`:
+            Can't modify PyTableModel when it's sorted: null
+    class `PyListModel`:
+        application/x-Orange-PyListModelData: null
+        def `_is_index_valid`:
+            Mismatched length of model and its _other_data: null
+        def `data`:
+            separator: null
+        def `flags`:
+            flags: null
+        def `__repr__`:
+            PyListModel(%s): null
+        def `mimeData`:
+            'see properties: _items, _itemdata': null
+            _items: null
+            _itemdata: null
+        def `dropMimeData`:
+            _items: null
+            _itemdata: null
+utils/listview.py:
+    class `ListViewFilter`:
+        def `__init__`:
+            Filter...: 筛选...
+        def `setModel`:
+            'The model cannot be changed. ': null
+            Use set_source_model() instead.: null
+    class `ListViewSearch`:
+        def `__init__`:
+            'ListViewSearch is deprecated and will be removed ': null
+            in upcoming releases. Use ListViewFilter instead.: null
+            Filter...: 筛选...
+    def `main`:
+        A: null
+        Z: null
+        {next(c)}{next(c)}{next(c)}{next(c)}: null
+    __main__: null
+utils/matplotlib_export.py:
+    def `numpy_repr`:
+        array(: null
+        ): null
+    def `numpy_repr_int`:
+        array(: null
+        , dtype='int'): null
+    def `code_with_indices`:
+        [: null
+        ]: null
+    def `scatterplot_code`:
+        x: null
+        y: null
+        size: null
+        '# data': null
+        x = {}: null
+        y = {}: null
+        '# style': null
+        sizes = {}: null
+        pen: null
+        brush: null
+        def `do_colors`:
+            {} = {}: null
+            {}_index = {}: null
+            array({})[{}_index]: null
+        edgecolors: null
+        facecolors: null
+        linewidths = {}: null
+        def `matplotlib_marker`:
+            t: null
+            ^: null
+            t2: null
+            >: null
+            t3: null
+            <: null
+            star: null
+            *: null
+            +: null
+            P: null
+            x: null
+            X: null
+        symbol: null
+        indices = {}: null
+        def `indexed`:
+            indices: null
+        plt.scatter(x={}, y={}, s={}, marker={},\n: null
+        '            facecolors={}, edgecolors={},\n': null
+        '            linewidths={})': null
+        sizes: null
+        **2/4: null
+        linewidths: null
+        \n: null
+    def `scene_code`:
+        import matplotlib.pyplot as plt: null
+        import numpy as np: null
+        from numpy import array: null
+        plt.clf(): null
+        bottom: null
+        plt.xticks: null
+        plt.xlabel: null
+        left: null
+        plt.yticks: null
+        plt.ylabel: null
+        {}({}): null
+        {}({}, {}): null
+        \n: null
+utils/messages.py:
+    class `UnboundMsg`:
+        def `__call__`:
+            Message is not bound: null
+        def `clear`:
+            Message is not bound: null
+        def `is_shown`:
+            Message is not bound: null
+    class `MessageGroup`:
+        def `__init__`:
+            {}: null
+        def `add_message`:
+            {}: null
+    class `MessagesMixin`:
+        def `__init__`:
+            severity: null
+    class `WidgetMessagesMixin`:
+        class `Error`:
+            '#ffc6c6': null
+        class `Warning`:
+            '#ffffc9': null
+        class `Information`:
+            '#ceceff': null
+        def `update_message_state`:
+            def `msg`:
+                \n: null
+        def `_warn_obsolete`:
+            "'{}' with id is deprecated; use {} class": null
+        def `information`:
+            information: null
+        def `warning`:
+            warning: null
+        def `error`:
+            error: null
+utils/messagewidget.py:
+    Message: null
+    MessagesWidget: null
+    def `image_data`:
+        png: null
+        ascii: null
+        data:image/png;base64,: null
+    class `Message`:
+        Message: null
+        severity: null
+        icon: null
+        text: null
+        informativeText: null
+        detailedText: null
+        textFormat: null
+        def `asHtml`:
+            '<span style="white-space: pre">{}</span>': null
+            <div class="message {}">: null
+            <div class="field-text">: null
+            <img src="{iconurl}" width="{imgsize}" height="{imgsize}" />: null
+            ' {text}': null
+            </div>: null
+            <div class="field-informative-text">{}</div>: null
+            <div class="field-detailed-text">{}</div>: null
+            \n: null
+    def `summarize`:
+        {nerrors} {pl(nerrors, 'error')}: null
+        {nwarnings} {pl(nwarnings, 'warning')}: null
+        {ninfo} {pl(ninfo, 'message')}: null
+        {ninfo} other {pl(ninfo, 'message')}: null
+        ' (': null
+        ', ': null
+        ): null
+        <hr/>: null
+    class `MessageWidget`:
+        def `__init__`:
+            sizePolicy: null
+            opacity: null
+        def `_styled`:
+            <style>{escape(self.__defaultStyleSheet)}</style>\n{html}: null
+    class `IconWidget`:
+        def `__init__`:
+            sizePolicy: null
+    def `main`:
+        Encountered a HCF: null
+        <em>AAA! It burns.</em>: null
+        ACHTUNG!: null
+        '<div style=\"color: red\">DAS KOMPUTERMASCHINE IST ': null
+        NICHT FÜR DER GEFINGERPOKEN</div>: null
+        The rain in spain falls mostly on the plain: null
+        <a href=\"https://www.google.si/search?q=: null
+        Average+Yearly+Precipitation+in+Spain\">Link</a>: null
+        I did not do this!: null
+        The computer made suggestions...: null
+        ... and the default options was yes.: null
+    __main__: null
+utils/overlay.py:
+    class `MessageWidget`:
+        _Button: null
+        button: null
+        role: null
+        stdbutton: null
+        def `__init__`:
+            icon-label: null
+            text-label: null
+            darwin: null
+        def `addButton`:
+            'Wrong number of arguments for ': null
+            addButton(QAbstractButton, role): null
+            addButton(StandardButton): null
+            Ok: null
+            Help: 帮助
+            addButton(str, ButtonRole): null
+            darwin: null
+    def `proxydoc`:
+        __doc__: null
+utils/progressbar.py:
+    class `ProgressBarMixin`:
+        def `progressBarInit`:
+            ' (0% complete)': null
+        def `progressBarSet`:
+            'progressBarSet() called without a ': null
+            preceding progressBarInit(): null
+            {}:{:02}:{:02}: null
+            {}:{}:{:02}: null
+            '{} ({:d}%, ETA: {})': null
+            ' (0% complete)': null
+utils/saveplot.py:
+    def `save_plot`:
+        directories/last_graph_directory: null
+        directories/last_graph_filter: null
+        ~: null
+        Error: null
+        'Error occurred while saving file "{}": {}': null
+    __main__: null
+utils/signals.py:
+    '
+Function for summarizing the input or output data.
+
+The function must be decorated with `@summarize.register`. It accepts an
+argument of arbitrary type and returns a `PartialSummary`, which is a tuple
+consisting of two strings: a short summary (usually a number) and details.
+': null
+    '
+<style>
+    ul {
+        margin-left: 4px;
+        margin-top: 2px;
+        -qt-list-indent:1
+    }
+
+    li {
+        margin-bottom: 3px;
+    }
+
+    th {
+        text-align: right;
+    }
+</style>
+': null
+    def `can_summarize`:
+        To silence this warning, set auto_summary of '{name}' to False.: null
+        'Output is specified with qualified name ({a_type}). ': null
+        'To enable auto summary, set auto_summary to True. ': null
+        "register 'summarize' function for type {a_type.__name__}. ": null
+    Closed: null
+    __doc__: null
+    Explicit connection closing sentinel.: null
+    __repr__: null
+    __str__: null
+    class `Input`:
+        def `__call__`:
+            Input {} is already bound to method {}: null
+    class `MultiInput`:
+        def `__init__`:
+            multiple: null
+            multiple cannot be set to False: null
+        def `__get_summary_ids`:
+            WidgetSignalsMixin: null
+        def `bound_signal`:
+            insert_handler is not set: null
+            remove_handler is not set: null
+    def `_parse_call_id_arg`:
+        '`id` parameter is deprecated and will be removed in the ': null
+        future: null
+    class `WidgetSignalsMixin`:
+        def `_bind_signals`:
+            Inputs: null
+            Outputs: null
+        def `send`:
+            {} is not a valid output signal for widget {}: null
+        def `convert_signals`:
+            inputs: null
+            outputs: null
+            Inputs: null
+            Outputs: null
+        def `_check_input_handlers`:
+            'unbound signal(s) in {}: {}': null
+            ', ': null
+            'missing handlers in {}: {}': null
+        def `_check_ids_unique`:
+            input: null
+            output: null
+            s: null
+            'Name {signal.name} refers to different {direction} ': null
+            signals of {cls.__name__}: null
+            'Id {signal.id} refers to different {direction} ': null
+            '{name} appears as a name and an id of two different ': null
+            {direction} signals in {cls.__name__}: null
+        def `_update_summary`:
+            def `format_short`:
+                -: null
+                'summary must be None, string or int; ': null
+                got {type(summary).__name__}: null
+            def `format_detail`:
+                -: null
+            def `join_multiples`:
+                -: null
+                ' ': null
+                <br/>: null
+            ' | ': null
+            <hr/><table>: null
+            '<tr><th><nobr>{name}</nobr>: ': null
+            </th><td>{detail}</td></tr>: null
+            </table>: null
+        def `show_preview`:
+            <hr/><table>: null
+            '<tr><th><nobr>{name}</nobr>: ': null
+            </th><td>-</td></tr>: null
+            </table>: null
+            ' ({i})': null
+            -: null
+            '<tr><th><nobr>{name}{part_no}</nobr>: ': null
+            </th><td>{detail}</td></tr>: null
+    def `get_input_meta`:
+        inputs: null
+    def `get_widget_inputs`:
+        _WidgetSignalsMixin__input_state: null
+utils/visual_settings_dlg.py:
+    class `SettingsDialog`:
+        def `__init__`:
+            Visual Settings: null
+        def `__add_row`:
+            {label}:: null
+    class `VisualSettingsDialog`:
+        def `__init__`:
+            visual_settings: null
+    def `_`:
+        '{key[-1]} ': null
+    __main__: null
+    Foo: null
+    Bar: null
+    Baz: null
+    Foo Bar: null
+    Foo Baz: null
+    Bar Baz: null
+    Box 1: null
+    Item 1: null
+    Parameter 1: null
+    Parameter 2: null
+    Parameter 3: null
+    Item 2: null
+    Item 3: null
+    Box 2: null
+    Item 4: null
+    Item 5: null
+    Item 6: null
+    Open dialog: null
+utils/webview.py:
+    _webview: null
+    helpers.js: null
+    init-webengine-webchannel.js: null
+    ORANGE_DEBUG: null
+    class `WebEngineView`:
+        __ORANGE_: null
+        def `__init__`:
+            QTWEBENGINE_REMOTE_DEBUGGING: null
+            12088: null
+            'To debug QWebEngineView, set environment variable ': null
+            'QTWEBENGINE_REMOTE_DEBUGGING={port} and then visit ': null
+            'http://127.0.0.1:{port}/ in a Chromium-based browser. ': null
+            'See https://doc.qt.io/qt-5/qtwebengine-debugging.html ': null
+            This has also been done for you.: null
+            utf-8: null
+            webview_helpers: null
+            ://qtwebchannel/qwebchannel.js: null
+            webchannel_init: null
+            ://qtwebchannel/qwebchannel.js is not readable.: null
+            ;window.__load_finished = true;: null
+            load_finished: null
+            "Don't expose QWidgets in WebView. Construct minimal ": null
+            QObjects instead.: null
+            pybridge: null
+            __bridge: null
+        def `_onloadJS`:
+            script_: null
+    class `WebKitView`:
+        def `__init__`:
+            "Don't expose QWidgets in WebView. Construct minimal ": null
+            QObjects instead.: null
+            def `_onload`:
+                pybridge: null
+                utf-8: null
+    def `_to_primitive_types`:
+        "Don't expose QWidgets in WebView. Construct minimal ": null
+        QObjects instead.: null
+        'object must consist of primitive types ': null
+        '(allowed: int, float, str, bool, list, ': null
+        'dict, set, numpy.ndarray, ...). Type is: ': null
+    class `_WebViewBase`:
+        def `evalJS`:
+            def `_later`:
+                \n;: null
+            ;0;: null
+        def `svg`:
+            '<svg ': null
+            </svg>: null
+        def `toFileURL`:
+            file:: null
+    class `_JSObject`:
+        def `pop_object`:
+            QVariantMap: null
+    class `WebviewWidget`:
+        def `__init__`:
+            __js_object_channel: null
+        def `html`:
+            _html: null
+    class `_JSObjectChannel`:
+        QVariantMap: null
+        def `send_object`:
+            "QWebChannel doesn't transmit QObject instances. If you ": null
+            'need a QObject available in JavaScript, pass it as a ': null
+            bridge in WebviewWidget constructor.: null
+utils/widgetpreview.py:
+    class `WidgetPreview`:
+        def `_find_handler_name`:
+            inputs: null
+            no signal handlers for '{chunk_type}': null
+            multiple signal handlers for '{chunk_type}': null
+workflow/config.py:
+    https://orange.biolab.si/addons/list: null
+    orange.widgets: null
+    class `Config`:
+        biolab.si: null
+        Orange Canvas: null
+        0.0.0: null
+        def `core_packages`:
+            orange-widget-base: null
+        def `examples_entry_points`:
+            orange.widgets.tutorials: null
+    def `data_dir`:
+        Orange: null
+        0.0.0: null
+    def `cache_dir`:
+        "'{__name__}.cache_dir' is deprecated.": null
+        Orange: null
+        0.0.0: null
+    def `log_dir`:
+        "'{__name__}.log_dir' is deprecated.": null
+        darwin: null
+        Orange: null
+        ~/Library/Logs: null
+    def `widget_settings_dir`:
+        "'{__name__}.widget_settings_dir' is deprecated.": null
+workflow/discovery.py:
+    def `widget_desc_from_module`:
+        get_widget_description: null
+workflow/drophandler.py:
+    OWNodeFromMimeDataDropHandler: null
+    SingleUrlDropHandler: null
+    UrlsDropHandler: null
+    SingleFileDropHandler: null
+    FilesDropHandler: null
+    class `SingleUrlDropHandler`:
+        def `canDropMimeData`:
+            SchemeEditWidget: null
+            QMimeData: null
+        def `parametersFromMimeData`:
+            SchemeEditWidget: null
+            QMimeData: null
+            Dict[str, Any]: null
+        def `parametersFromUrl`:
+            Dict[str, Any]: null
+    class `UrlsDropHandler`:
+        def `canDropMimeData`:
+            SchemeEditWidget: null
+            QMimeData: null
+        def `parametersFromMimeData`:
+            SchemeEditWidget: null
+            QMimeData: null
+            Dict[str, Any]: null
+        def `parametersFromUrls`:
+            Dict[str, Any]: null
+    class `SingleFileDropHandler`:
+        def `canDropMimeData`:
+            SchemeEditWidget: null
+            QMimeData: null
+        def `parametersFromMimeData`:
+            SchemeEditWidget: null
+            QMimeData: null
+            Dict[str, Any]: null
+        def `parametersFromFile`:
+            Dict[str, Any]: null
+    class `FilesDropHandler`:
+        def `canDropMimeData`:
+            SchemeEditWidget: null
+            QMimeData: null
+        def `parametersFromMimeData`:
+            SchemeEditWidget: null
+            QMimeData: null
+            Dict[str, Any]: null
+        def `parametersFromFiles`:
+            Dict[str, Any]: null
+workflow/errorreporting.py:
+    https://service.biolab.si/error_report/: null
+    def `get_installed_distributions`:
+        Unknown: null
+        {name}=={version}: null
+    class `ErrorReporting`:
+        class `DataField`:
+            Exception: null
+            Module: null
+            Widget Name: null
+            Widget Module: null
+            Version: null
+            Environment: null
+            Installed Packages: null
+            Machine ID: null
+            Widget Scheme: null
+            Stack Trace: null
+            Local Variables: null
+        def `__init__`:
+            Unexpected Error: null
+            The program encountered an unexpected error. Please<br>: null
+            report it anonymously to the developers.<br><br>: null
+            The following data will be reported:: null
+            Monospace: null
+            def `_reload_text`:
+                error-reporting/add-scheme: null
+                <table>: null
+                _: null
+                <a href="{}">{}</a>: null
+                file:: null
+                \n: null
+                <br>: null
+                ' ': null
+                &nbsp;: null
+                <tr><th align="left">{}:</th><td>{}</td></tr>: null
+                </table>: null
+            Include workflow (data will NOT be transmitted): null
+            error-reporting/add-scheme: null
+            Send Report (Thanks!): null
+            Don't Send: null
+        def `accept`:
+            error-reporting/add-scheme: null
+            def `_post_report`:
+                utf8: null
+                Error reporting failed: null
+        def `handle_exception`:
+            sys.excepthook: null
+            {}:{}: null
+            __name__: null
+            def `_find_widget_frame`:
+                self: null
+            self: null
+            ', ': null
+            error-reporting/machine-id: null
+            Error Encountered: null
+            Error encountered{}:<br><br><tt>{}</tt>: null
+            ' in widget <b>{}</b>': null
+            \n: null
+            <br>: null
+            ' ': null
+            &nbsp;: null
+            ows-: null
+            .ows.xml: null
+            wb: null
+            utf-8: null
+            Python {} on {} {} {} {}: null
+workflow/mainwindow.py:
+    class `OWCanvasMainWindow`:
+        def `__init__`:
+            Show report: 显示报告
+            action-show-report: null
+            Show a report window: 显示报告窗口
+            Shift+R: null
+            Open Report...: 打开报告...
+            action-open-report: null
+            Open a saved report: 打开已保存报告
+            Reset Widget Settings...: 重置组件设置...
+            file-menu: null
+            open-actions-separator: null
+            view-menu: null
+            view-visible-actions-separator: null
+            options-menu: null
+            canvas-addons-action: null
+        def `open_report`:
+            report/file-dialog-dir: null
+            Open Report: 打开报告
+            Report (*.report): null
+        def `reset_widget_settings`:
+            Orange: null
+            Clear settings: 清除设置
+            {name} needs to be restarted for the changes to take effect.: null
+            Press OK to restart {name} now.: null
+            DELETE_ON_START: null
+            a: null
+            def `restart`:
+                Restart Cancelled: null
+                Settings will be reset on {name}'s next restart: null
+        def `ask_save_report`:
+            Report window: 报告窗口
+            The report contains unsaved changes.: null
+            Would you like to save the report?: 是否保存报告？
+workflow/utils.py:
+    T: null
+workflow/widgetsscheme.py:
+    class `WidgetsScheme`:
+        def `sync_node_properties`:
+            'Scheme node properties sync (changed: %s)': null
+    class `OWWidgetManager`:
+        def `__init__`:
+            gc-timer: null
+        def `delete_widget_for_node`:
+            'A widget/node {0} was removed while being initialized. ': null
+            'This is most likely a result of an explicit ': null
+            'QApplication.processEvents call from the ': null
+            "'{1.__module__}.{1.__qualname__}' ": null
+            widget's __init__.: null
+            'Destroyed namespace for: %s': null
+        def `__delete_item`:
+            'Widget %s removed but still in state :%s. ': null
+            Deferring deletion.: null
+        def `__try_delete`:
+            Delayed delete for widget %s: null
+        def `__delete_widget`:
+            Disposing of widget '%s': null
+        def `__run_gc`:
+            Running gc.collect(): null
+            gc.collect() collected {n} objects: null
+        def `create_widget_instance`:
+            "WidgetManager: Creating '%s.%s' instance '%s'.": null
+            action-help: null
+        def `__on_help_request`:
+            help://search?: null
+            id: null
+        def `__on_processing_started`:
+            MUST NOT re-enter: null
+        def `__on_widget_state_changed`:
+            State change for a non-tracked widget {}: null
+        def `actions_for_context_menu`:
+            ext-workflow-node-menu-action: null
+            Show settings: 显示设置
+            show-settings: null
+            Show widget settings: 显示组件设置
+    def `user_message_from_state`:
+        {0.__name__}.{0.__qualname__}: null
+        <br/>: null
+        content-type: null
+        text/html: null
+    class `WidgetsSignalManager`:
+        def `send`:
+            Node for '%s' (%s.%s) is not in the scheme.: null
+            %r is not valid signal name for %r: null
+            def `_parse_call_signal_id`:
+                "'signal_id' parameter is deprecated": null
+    def `get_widget_input_signals`:
+        _OWBaseWidget__process_signal_input: null
